@@ -1,5 +1,3 @@
-
-/* General styles */
 body {
     font-family: Arial, sans-serif;
     background-color: #333; /* Light orange background reminiscent of sand */
@@ -12,6 +10,8 @@ body {
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 90%; /* Set maximum width for the container */
+    margin: 20px auto; /* Center the container */
 }
 
 .pig-image {
@@ -53,12 +53,17 @@ body {
     background-color: #0056b3;
 }
 
-/* CSS for larger screens (tablets and laptops) */
-@media only screen and (min-width: 600px) {
-    .container {
-        max-width: 90%;
-        margin: 20px auto;
-    }
+/* Video Container */
+.video-container {
+    width: 100%; /* Set width to 100% */
+    margin-top: 20px; /* Add some top margin */
+    overflow: hidden; /* Ensure video doesn't overflow container */
+}
+
+.video-container video {
+    width: 100%; /* Set video width to 100% */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Ensure video is centered */
 }
 
 /* CSS for footer */
