@@ -33,7 +33,7 @@ body {
     color: #333; /* Dark text color */
 }
 
-.contact-info h2, .location h2 {
+.contact-info h2, .location h2, h2 {
     color: #1565c0; /* Deep blue for headers */
     font-size: 1.5em;
     margin-bottom: 10px;
